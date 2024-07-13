@@ -57,7 +57,7 @@ const Navbar = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <Linkedin size={20} />
+                            <Linkedin size={20}/>
                         </a>
                     </li>
 
@@ -67,7 +67,7 @@ const Navbar = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <GitHub size={20} />
+                            <GitHub size={20}/>
                         </a>
                     </li>
 
@@ -77,9 +77,10 @@ const Navbar = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <Instagram size={20} />
+                            <Instagram size={20}/>
                         </a>
                     </li>
+
                     {navLinks.map((Link) => (
                         <li
                             key={Link.id}
@@ -100,6 +101,16 @@ const Navbar = () => {
                             <a href={`#${Link.id}`}>{Link.title}</a>
                         </li>
                     ))}
+                    <li>
+                        <a
+                            href="https://docs.google.com/document/d/1mMQzpSh0bAMbip8cDa8w4Vle9qd_auYrC2Xgq3hYKT8/edit?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={`text-secondary hover:text-white text-[18px] font-medium`}
+                        >
+                            {'Resume'}
+                        </a>
+                    </li>
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end  items-center">
                     <img
