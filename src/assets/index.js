@@ -26,6 +26,7 @@ import cpp from "./tech/c++.png";
 import python from "./tech/python.png";
 import tensorflow from "./tech/tensorflow.png";
 import express from "./tech/express.png";
+import rust from "./rust.png"
 
 
 
@@ -56,5 +57,6 @@ export {
   cpp,
   python,
   tensorflow,
-  express  
+  express,
+  rust
 };

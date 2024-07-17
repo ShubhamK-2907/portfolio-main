@@ -5,23 +5,14 @@ import {
     backend,
     creator,
     web,
-    javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
-    git,
     figma,
     docker,
     threejs,
-    cpp,
-    python,
-    tensorflow,
-    express,
+    rust,
 } from "../assets";
 
 export const navLinks = [
@@ -80,8 +71,8 @@ const technologies = [
       icon: mongodb,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Rust",
+      icon: rust,
     },
     {
       name: "docker",
