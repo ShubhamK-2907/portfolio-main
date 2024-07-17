@@ -158,6 +158,20 @@ const projects = [
         iconBg: "#E6DEDD",
     },
     {
+        name: "File Compressor",
+        description:
+            "A Rust-based file compression utility to efficiently compress files using Gzip. Utilized the flate2 crate’s GzEncoder for high compression ratios and performance. Implemented robust file I/O operations with std::fs::File and std::io::BufReader for reading and writing files. Incorporated error handling and performance measurement using Rust's standard library features to ensure reliability and efficiency in compressing files",
+        tags: [
+            {
+                name: "Rust",
+                color: "blue-text-gradient",
+            },
+        ],
+        source_code_link: "https://github.com/ShubhamK-2907/file_compressor",
+        icon: logo,
+        iconBg: "#E6DEDD",
+    },
+    {
         name: "My Pathfinder Visualiser",
         description:
             " The Pathfinding Algorithm Visualizer is an interactive tool developed using Svelte/SvelteKit and TypeScript, designed to\n" +
@@ -177,7 +191,7 @@ const projects = [
             },
         ],
         source_code_link: "https://github.com/ShubhamK-2907/MyPathFinder",
-        icon: logo,
+        icon: logo3,
         iconBg: "#E6DEDD",
     },
     {
@@ -200,7 +214,7 @@ const projects = [
             },
         ],
         source_code_link: "https://github.com/ShubhamK-2907/Ksketch",
-        icon: logo3,
+        icon: logo,
         iconBg: "#E6DEDD",
     },
     {
@@ -222,7 +236,7 @@ const projects = [
             },
         ],
         source_code_link: "https://github.com/ShubhamK-2907/apple-clone",
-        icon: logo,
+        icon: logo3,
         iconBg: "#E6DEDD",
     },
     {
@@ -237,7 +251,7 @@ const projects = [
         ],
         source_code_link:
             "https://github.com/ShubhamK-2907/n-puzzle-game",
-        icon: logo3,
+        icon: logo,
         iconBg: "#E6DEDD",
     },
     {
@@ -256,7 +270,7 @@ const projects = [
         ],
         source_code_link:
             "https://github.com/ShubhamK-2907/clumsy-bird",
-        icon: logo,
+        icon: logo3,
         iconBg: "#E6DEDD",
     },
 ];
