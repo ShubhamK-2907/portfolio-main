@@ -103,7 +103,7 @@ const Navbar = () => {
                     ))}
                     <li>
                         <a
-                            href="https://docs.google.com/document/d/1mMQzpSh0bAMbip8cDa8w4Vle9qd_auYrC2Xgq3hYKT8/edit?usp=sharing"
+                            href="https://docs.google.com/document/d/1XlGXb2-aqBzGFORwsfS4sB-OK5FOasRTV5J64H_uIU4/edit?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`text-secondary hover:text-white text-[18px] font-medium`}
