@@ -1,4 +1,4 @@
-import logo from "./logo-color.svg";
+import logo from "./logo-color.png";
 import logo2 from "./logo-black.png"
 import logo3 from "./logo-white.png"
 import backend from "./backend.png";
@@ -27,6 +27,10 @@ import python from "./tech/python.png";
 import tensorflow from "./tech/tensorflow.png";
 import express from "./tech/express.png";
 import rust from "./rust.png"
+import stealth from "./stealth.svg";
+import deadpoolMe from "./deadpoolMe.png";
+import deadpoolThumbsUp from "./deadpoolThumbsUp.png";
+import abstergo from "./abstergo.png";
 
 
 
@@ -58,5 +62,9 @@ export {
   python,
   tensorflow,
   express,
-  rust
+  rust,
+  stealth,
+  deadpoolMe,
+  deadpoolThumbsUp,
+  abstergo
 };

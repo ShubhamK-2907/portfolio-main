@@ -21,8 +21,8 @@ const ProjectCard = ({
 }: any) => {
     return (
         <VerticalTimelineElement
-            contentStyle={{ background: "#1d1836", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid #232631" }}
+            contentStyle={{ background: "#840c24", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid #840c24" }}
             iconStyle={{ background: iconBg }}
             icon={
                 <div className="flex justify-center items-center w-full h-full">
@@ -40,7 +40,8 @@ const ProjectCard = ({
                     scale: 1,
                     speed: 450,
                 }}
-                className=" bg-tertiary p-2 rounded-2xl  w-full"
+                className="p-2 rounded-2xl  w-full"
+                style={{ backgroundColor: "#c61236" }}
             >
                 <div className="relative w-full h-[55px] ">
                     {/* <img

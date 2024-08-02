@@ -2,17 +2,17 @@ import {
     logo,
     logo3,
     mobile,
-    backend,
     creator,
-    web,
     typescript,
     reactjs,
     nodejs,
     mongodb,
-    figma,
     docker,
     threejs,
     rust,
+    stealth,
+    deadpoolMe,
+    deadpoolThumbsUp
 } from "../assets";
 
 export const navLinks = [
@@ -32,20 +32,12 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Web3 Enthusiast",
-        icon: mobile,
+        title: "FPS Aimbot",
+        icon: deadpoolMe,
     },
     {
         title: "Content Writer",
-        icon: creator,
+        icon: deadpoolThumbsUp,
     },
 ];
 
@@ -81,6 +73,18 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+        title: "Founding Member",
+        company_name: "Stealth Startup",
+        icon: stealth,
+        iconBg: "#E6DEDD",
+        date: "May 2024 - Present...",
+        points: [
+            "Leading E2E Frontend development and MVP definition to acquire the first set of paying customers",
+            "Ideated a robust Scheduling engine to allow brands and offline merchants dynamically group the assets to enable campaigns based on brands logic.",
+            "Analysed technology maturity, competitors' strategy and start-up activity to suggest research thrust"
+        ],
+    },
     {
         title: "Frontend Developer",
         company_name: "Lifesight",
